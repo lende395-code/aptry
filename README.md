@@ -10,3 +10,16 @@ Aplikasi **aptry** adalah proyek Flutter yang dikembangkan sebagai implementasi 
 - **Halaman Dashboard Utama**: Halaman utama setelah pengguna berhasil masuk.
 - **Navigasi Antar Halaman**: Perpindahan halaman yang mulus menggunakan sistem Routing/Navigator Flutter.
 
+## Cara Menjalankan Aplikasi
+Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di perangkat Anda:
+1. Pastikan Flutter SDK sudah terinstal di perangkat Anda.
+2. Buka terminal atau Command Prompt di folder proyek ini.
+3. Jalankan perintah berikut untuk mengunduh package yang diperlukan:
+   bash
+   flutter pub get
+   
+4. Jalankan aplikasi menggunakan perintah:
+   bash
+   flutter run
+   
+   Jika ingin menjalankan di Chrome, gunakan perintah: flutter run -d chrome
