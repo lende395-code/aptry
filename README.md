@@ -1,17 +1,38 @@
 # aptry
+Aplikasi ini dibuat untuk memenuhi tugas UTS mata kuliah pemrograman mobile menggunakan framework flutter.
 
-A new Flutter project.
+## Deskripsi Aplikasi
+Aplikasi **aptry** adalah proyek Flutter yang dikembangkan sebagai implementasi antarmuka pengguna (UI) untuk sistem autentikasi dan dashboard aplikasi mobile.
 
-## Getting Started
+## Daftar Fitur
+- **Halaman Login**: Antarmuka untuk masuk ke dalam aplikasi.
+- **Halaman Lupa Password**: Fitur untuk pemulihan akun pengguna.
+- **Halaman Dashboard Utama**: Halaman utama setelah pengguna berhasil masuk.
+- **Navigasi Antar Halaman**: Perpindahan halaman yang mulus menggunakan sistem Routing/Navigator Flutter.
 
-This project is a starting point for a Flutter application.
+## Cara Menjalankan Aplikasi
+Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di perangkat Anda:
+1. Pastikan Flutter SDK sudah terinstal di perangkat Anda.
+2. Buka terminal atau Command Prompt di folder proyek ini.
+3. Jalankan perintah berikut untuk mengunduh package yang diperlukan:
+   ```bash
+   flutter pub get
+   ```
+4. Jalankan aplikasi menggunakan perintah:
+   ```bash
+   flutter run
+   ```
+   *Jika ingin menjalankan di Chrome, gunakan perintah: `flutter run -d chrome`*
 
-A few resources to get you started if this is your first Flutter project:
+## Daftar Package yang Digunakan
+Berdasarkan file `pubspec.yaml`, berikut adalah package utama yang digunakan:
+- `cupertino_icons`: ^1.0.8
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
+Berikut adalah tampilan antarmuka aplikasi:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <img src="screenshots/screen1.png" width="250" title="Halaman Login" />
+  <img src="screenshots/screen2.png" width="250" title="Halaman Dashboard" />
+  <img src="screenshots/screen3.png" width="250" title="Halaman Lupa Password" />
+</p>
