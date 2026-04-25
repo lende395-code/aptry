@@ -23,7 +23,15 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di perangkat Anda:
    flutter run
    
    Jika ingin menjalankan di Chrome, gunakan perintah: flutter run -d chrome
-   
+
 ## Daftar Package yang Digunakan
 Berdasarkan file pubspec.yaml, berikut adalah package utama yang digunakan:
 - cupertino_icons: ^1.0.8
+## Screenshots
+Berikut adalah tampilan antarmuka aplikasi:
+
+<p align="center">
+  <img src="screenshots/screen1.png" width="250" title="Halaman Login" />
+  <img src="screenshots/screen2.png" width="250" title="Halaman Dashboard" />
+  <img src="screenshots/screen3.png" width="250" title="Halaman Lupa Password" />
+</p>
